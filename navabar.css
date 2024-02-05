@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: rgba(52, 33, 33, 0.331);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(149, 208, 188);
+        padding: 10px 20px;
+        align-items: stretch;
+    
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        text-align: center;
+        align-items: center;
+    }
+    .menu-links a{
+        margin-right: 25px;
+        text-decoration: none;
+        color:rgb(228,0, 0);
+    }
+    button{
+        border: none;
+        outline: none;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        background-color: transparent;
+        border: 2px solid #000;
+        padding: 6px 6px;
+        border-radius: 25px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    button:hover{
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        scale: 1.2;
+        
+    }
+    .menu-links{
+        border-right: 3px solid #fff;
+        padding-inline: 24px 12px;
+    
+    }
+    .menu-links a:hover{
+        color:white;
+        scale:1.8;
+        border-bottom: 2px solid black ;
+        
+    }
+    .content2 img{
+        width: 50%;
+        height: 50%;
+        transition-duration: 3s;
+
+    }
+    .content2{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+        transition: 2s;
+    
+        margin-left: 25px;
+    
+    }
+    .descrption{
+        margin-top: 150px;
+        transition-delay: 2s;
+    }
+    .descrption p{
+        margin-top: 50px;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .descrption .beauty span {
+        font-weight: 900;
+        margin-left: 10px;
+        justify-content: space-around;
+    
+        
+    }
+    .descrption marquee a{
+        font-weight: 900;
+        margin-left: 10px;
+
+    }
+    .descrption .discount{
+        margin-top: 100px;
+        font-weight: 1000;
+        font-size: 50px;
+        color: rgb(20, 57, 45);
+    }
+    .discount span{
+        margin-left: 100px;
+    }
+    .contact .face i{
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-top: 10px;
+        
+
+    }
+    .contact{
+        width: 100%;
+        justify-content: space-between;align-items: center;
+        display: flex;
+        margin-left: 37%;
+        font-size: 50px;
+    }
+    .contact:hover{
+        cursor: pointer;
+        
+    }
+    .beauty2{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 40px;
+        
+    }
+    .beauty2 h4{
+        color: green;
+    }
+    .beauty2 li{
+        text-decoration: none;
+        margin: 25px;
+        font-size: 20px;
+        list-style-type: none;
+
+    }
+    .call{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 10;
+        
+        
+    }
+    .call a{
+        margin-left:25px;
+        gap: 23px;
+    }
